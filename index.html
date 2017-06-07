@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>HCI</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Exo|Orbitron'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Armata'>
+<link rel='stylesheet prefetch' href='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <html>
+<body>
+  <div id="main-container">
+    <div id="content-left">
+      
+    <div id="dropdown">  
+      <div id="myDropdown">
+        <div id="dropdown-arch-graph">
+          arc graph here
+        </div>
+        <table id="dropdown-table">
+          <tr>
+            <td id="table-value-1"><span>0</span></td>
+            <td>Goal</td>
+          </tr>
+            <td id="table-value-2"><span>0</span></td>
+            <td>Missed Goal</td>
+          <tr> 
+            <td id="table-value-3"><span>0</span></td>
+            <td>Pass</td>
+          </tr> 
+            <td id="table-value-4"><span>0</span></td>
+            <td>Missed Pass</td>
+          <tr>  
+            <td id="table-value-5"><span>0</span></td>
+            <td>Offside</td>
+          </tr>
+          <tr>
+            <td id="reset-data">Reset</td>
+            <td id="save-data">Save</td>
+          </tr>
+        </table>
+        <div id=dropdown-rect-graph>
+          rect graph here
+        </div>
+      </div>
+    </div> 
+      
+      <iframe id="video" width="644" height="380">
+      </iframe>
+      <form onsubmit="go_get(); return false;" id="footer-form">
+        <input id="search" type="text" name="searchbar" placeholder=" Search..">
+        <input id="submit" type="submit" value="SEARCH" />
+</form>
+      </form>
+    </div>
+    <div id="content-right">
+      <h1 id="change">Analysis</h1>
+      <form id="team-player">
+        Team:
+        <input id="team" type="text" name="firstname"><br> Player:
+        <input id="player" type="text" name="firstname">
+      </form>
+      <ul>
+        <li><a href="#">Goal</a></li>
+        <li><a href="#">Missed Goal</a></li>
+        <li><a href="#">Pass</a></li>
+        <li><a href="#">Missed Pass</a></li>
+        <li><a href="#">Offside</a></li>
+        <li><a id="action" href="#">Action</a></li>
+        <li><a onclick="myResults()" href="#">Results</a></li>
+        <li class="video-controls"><a id="stop" href="#">Stop</a></li>
+      <li class="video-controls"><a id="pause" href="#">Pause</a></li>
+      <li class="video-controls"><a id="play" href="#">Play</a></li>
+      </ul>
+    </div>
+   </div>
+</body>
+
+</html>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

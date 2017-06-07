@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at http://codepen.io/Gshadow/pen/zwoQQy.
+
+ HCI app demonstration for learning purposes. This app is very dependent on user activity. The app should be able to load YouTube videos of football matches and the user should be able to record and save counted events while watching the match. Functionality is not fully implemented. (I appreciate every suggestions to improve functionality.)
